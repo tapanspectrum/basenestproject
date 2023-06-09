@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // swagger added
   const config = new DocumentBuilder()
-  .setTitle('Rest API Project')
+  .setTitle('Rest API Project') 
   .setDescription('This is REST API Using NEST JS')
   .setVersion('1.0')
   .addTag('Auth')
